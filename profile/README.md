@@ -1,8 +1,6 @@
 # Loopso
 
-First cross-chain bridge on [Lukso](https://lukso.network/) for **fungible** and **non-fungible** tokens.
-
-A **bi-directional** bridging experience, agnostic to token types and confirmed within 30 seconds ✌️
+First **cross-chain**, **bi-directional** bridge on [Lukso](https://lukso.network/), agnostic to token types, and txs confirmed within 30 seconds ✌️ 
 
 <div align="center">
 <img 
@@ -25,11 +23,11 @@ Transfer tokens between Sepolia, Lukso Testnet, and Mumbai by locking them on th
 #### Core Mechanism
 - Users lock tokens on chain A, and a relayer mints corresponding tokens on chain B.
 - Applicable to any tokens in both directions.
--  Architecture heavily influenced by Wormhole, prioritizing security.
+-  Architecture inspired by Wormhole, prioritizing security.
 
 
 #### Deployed Chains
-- Deployed on Sepolia, Lukso Testnet, and Mumbai chains.
+- Deployed on Sepolia, Lukso Testnet, and Mumbai.
 - Community-selected networks based on this [poll](https://x.com/loopso_xyz/status/1725529010535371236).
 
 #### Example Bridging Process
