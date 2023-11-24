@@ -58,3 +58,4 @@ Transfer tokens between **Sepolia, Lukso Testnet, and Mumbai** by locking them o
 - Currently, there is one centralized BMR that can be prone to outage and downtime. A single point of failure in the server could stop it, but we have plans for multi-relayer support. A decentralized group of relayers that work together to prevent that single point of failure.
 - Frontend UX could be better, especially as we have different wallets.
 - Bridge between native tokens on each chain (e.g. LYXe <> LYX).    
+- Internal Bridge Block Explorer.
