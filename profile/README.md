@@ -20,7 +20,6 @@ Transfer tokens between **Sepolia, Lukso Testnet, and Mumbai** by locking them o
 - Applicable to any tokens in both directions.
 -  Architecture inspired by Wormhole, prioritizing security.
 
-
 ### ⛓️ Deployed Chains
 - Deployed on Sepolia, Lukso Testnet, and Mumbai.
 - Community-selected networks based on this [poll](https://x.com/loopso_xyz/status/1725529010535371236).
@@ -44,10 +43,9 @@ Transfer tokens between **Sepolia, Lukso Testnet, and Mumbai** by locking them o
 - **Foundry library**: A lightweight library that makes it easier to work with LSP7 and LSP8 smart contracts in Foundry.
 - **Transaction Relayer**: Subsidize gas on behalf of Lukso users only.
 
-
 ## 💎 Features
 - Bridge between ERC20 <> LSP7 and ERC721 <> LSP8.
-- Programmatically allow any developer to use our bridge easily with our SDK: Enabling decentralized front-ends, or programmatically bridging without a UI.
+- Programmatically allow any developer to use our bridge easily with our SDK: Enabling decentralized front-ends, or bridging without a UI.
 - A clean UI to enable any user to seamlessly move funds between networks.
 - Take fees on fungible tokens and a cost to bridge for non-fungibles.
 - Developers on Lukso can use our LSP7 and LSP8 library when they use Foundry.
@@ -57,5 +55,5 @@ Transfer tokens between **Sepolia, Lukso Testnet, and Mumbai** by locking them o
 ## 🏗️ Roadmap & Limitations
 - Currently, there is one centralized BMR that can be prone to outage and downtime. A single point of failure in the server could stop it, but we have plans for multi-relayer support. A decentralized group of relayers that work together to prevent that single point of failure.
 - Frontend UX could be better, especially as we have different wallets.
-- Bridge between native tokens on each chain (e.g. LYXe <> LYX).    
+- Bridge between native tokens on each chain (e.g. LYXe <> LYX) without wrapping.    
 - Internal Bridge Block Explorer.
