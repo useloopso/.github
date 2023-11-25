@@ -13,12 +13,13 @@ First **cross-chain**, **bi-directional** bridge on [Lukso](https://lukso.networ
 Bridges connect **digital communities**, **exchanging value** between networks and fostering **growth** in areas like community, developer engagement, and overall awareness — **critical for Lukso**.
 
 ## 📚 Summary
-Transfer tokens between **Sepolia, Lukso Testnet, and Mumbai** by locking them on the source chain, triggering a rapid minting process on the destination chain through a centralized **Bridge Messaging Relayer**.
+Transfer tokens between **Sepolia, Lukso Testnet, and Mumbai** by locking them on the source chain, triggering a rapid minting process on the destination chain through a centralized **Bridge Messaging Relayer** via the **Transaction Relayer Service**.
 
 ### ⚙️ Core Mechanism
 - Users lock tokens on chain A, and a relayer mints corresponding tokens on chain B.
 - Applicable to any tokens in both directions.
--  Architecture inspired by Wormhole, prioritizing security.
+- Architecture inspired by Wormhole, prioritizing security.
+- Lukso users are subsidized.
 
 ### ⛓️ Deployed Chains
 - Deployed on Sepolia, Lukso Testnet, and Mumbai.
@@ -41,7 +42,7 @@ Transfer tokens between **Sepolia, Lukso Testnet, and Mumbai** by locking them o
 - **SDK**: A lightweight npm package for developers to embed into their dApp for easy cross-chain bridging.
 - **Frontend**: A NextJS frontend used to seamlessly bridge fungible and non-fungible tokens.
 - **Foundry library**: A lightweight library that makes it easier to work with LSP7 and LSP8 smart contracts in Foundry.
-- **Transaction Relayer**: Subsidize gas on behalf of Lukso users only.
+- **Transaction Relayer**: The first transaction relayer service written in GoLang for the Lukso network.
 
 ## 💎 Features
 - Bridge between ERC20 <> LSP7 and ERC721 <> LSP8.
@@ -59,4 +60,5 @@ Transfer tokens between **Sepolia, Lukso Testnet, and Mumbai** by locking them o
 - Internal Bridge Block Explorer.
 - We didn't deploy to mainnet because it would be irresponsible of us to launch a bridge without prior audits.
 - We were limited to testing by Lukso's HTTP & WS RPCs as there was frequent downtime across all RPCs (e.g. official, gateway, thirdweb), which made QA testing challenging.
-- UP had many bugs and interacting with it also was challenging on the client side.  
+- UP had many bugs and interacting with it also was challenging on the client side.
+- Unclear in the documentation how to add the URL of the relayer service to the UP browser extension prior to sending a tx.
