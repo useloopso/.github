@@ -57,3 +57,6 @@ Transfer tokens between **Sepolia, Lukso Testnet, and Mumbai** by locking them o
 - Frontend UX could be better, especially as we have different wallets.
 - Bridge between native tokens on each chain (e.g. LYXe <> LYX) without wrapping.    
 - Internal Bridge Block Explorer.
+- We didn't deploy to mainnet because it would be irresponsible of us to launch a bridge without prior audits.
+- We were limited to testing by Lukso's HTTP & WS RPCs as there was frequent downtime across all RPCs (e.g. official, gateway, thirdweb), which made QA testing challenging.
+- UP had many bugs and interacting with it also was challenging on the client side.  
